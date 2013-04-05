@@ -28,19 +28,30 @@ include "github.com/minikomi/ansipix"
 Then pass an `io.Reader` to Blockify:
 
 ```go
-f, err := os.Open("octocat.jpg")
-if err != nil {
-	panic(err)
-}
-defer f.Close()
+package main
 
-// str - ansified image as a string
-// err - error decoding image
-str, err := ansipix.Blockify(f, columns)
-if err != nil {
-	panic(err)
+// AnsipixOnPipe.go
+import (
+	"bufio"
+	"fmt"
+	"github.com/minikomi/ansipix"
+	"os"
+)
+
+func main() {
+	Stdin := bufio.NewReader(os.Stdin)
+
+	str, err := ansipix.Blockify(Stdin, 80)
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Println(str)
 }
-fmt.Println(str)
 ```
+
+and
+
+`cat awesomeimage.gif | go run AnsipixOnPipe.go `
 
 Have fun! :octocat:
