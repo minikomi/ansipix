@@ -14,7 +14,7 @@ Sure, build ansipix.go in the /bin/ folder and you're good to go.
 * First argument is filename
 * 2nd is width in columns (default 80)
 
-![octocat](http://i.imgur.com/SC5yP7J.png)
+![octocat](http://i.imgur.com/aNaUQz6.png)
 
 ## Can I use it?
 
