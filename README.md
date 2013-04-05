@@ -25,7 +25,7 @@ Sure, just
 $ go get "github.com/minikomi/ansipix"
 ```
 
-Then pass an `io.Reader` to Blockify:
+Then pass an `io.Reader` & width as an int to Blockify:
 
 ```go
 package main
