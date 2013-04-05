@@ -1,7 +1,6 @@
 # ansipix
 
-As see on http://curlgur.tk
-
+As seen on http://curlgur.tk
 
 ## Golang image to ansi blocks
 
