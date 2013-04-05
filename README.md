@@ -9,10 +9,10 @@ ansipix
 
 Sure, build ansipix.go in the /bin/ folder and you're good to go.
 
+`$ ./ansipix octocat.jpg 50`
+
 * First argument is filename
 * 2nd is width in columns (default 80)
-
-$ ansipix octocat.jpg 50
 
 ![octocat](http://i.imgur.com/SC5yP7J.png)
 
@@ -20,13 +20,13 @@ $ ansipix octocat.jpg 50
 
 Sure, just 
 
-``` golang
+``` go
 include "github.com/minikomi/ansipix"
 ```
 
-and pass an `io.Reader` to Blockify:
+Then pass an `io.Reader` to Blockify:
 
-```golang
+```go
   f, err := os.Open("octocat.jpg")
 	if err != nil {
 		panic(err)
