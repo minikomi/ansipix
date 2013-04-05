@@ -27,19 +27,19 @@ include "github.com/minikomi/ansipix"
 Then pass an `io.Reader` to Blockify:
 
 ```go
-  f, err := os.Open("octocat.jpg")
-	if err != nil {
-		panic(err)
-	}
-	defer f.Close()
+f, err := os.Open("octocat.jpg")
+if err != nil {
+	panic(err)
+}
+defer f.Close()
 
-  // str - ansified image as a string
-  // err - error decoding image
-	str, err := ansipix.Blockify(f, columns)
-	if err != nil {
-		panic(err)
-	}
-  fmt.Println(str)
+// str - ansified image as a string
+// err - error decoding image
+str, err := ansipix.Blockify(f, columns)
+if err != nil {
+	panic(err)
+}
+fmt.Println(str)
 ```
 
 Have fun! :octocat:
