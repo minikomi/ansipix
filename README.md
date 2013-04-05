@@ -21,8 +21,8 @@ Sure, build ansipix.go in the /bin/ folder and you're good to go.
 
 Sure, just 
 
-``` go
-include "github.com/minikomi/ansipix"
+``` shell
+$ go get "github.com/minikomi/ansipix"
 ```
 
 Then pass an `io.Reader` to Blockify:
