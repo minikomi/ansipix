@@ -3,7 +3,7 @@ ansipix
 
 ## Golang image to ansi blocks
 
-![gopher](http://i.imgur.com/uJJBQiO.png)
+![gopher](http://i.imgur.com/hYecglD.png)
 
 ## Can I try it? 
 
@@ -14,7 +14,7 @@ Sure, build ansipix.go in the /bin/ folder and you're good to go.
 * First argument is filename
 * 2nd is width in columns (default 80)
 
-![octocat](http://i.imgur.com/aNaUQz6.png)
+![octocat](http://i.imgur.com/t3cGshc.png)
 
 ## Can I use it?
 
