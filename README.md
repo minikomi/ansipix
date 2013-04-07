@@ -2,7 +2,7 @@
 
 As seen on http://curlgur.tk
 
-## Golang image to ansi blocks
+## image to ansi blocks in Go
 
 ![gopher](http://i.imgur.com/hYecglD.png)
 
