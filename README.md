@@ -52,6 +52,6 @@ func main() {
 
 and
 
-`cat awesomeimage.gif | go run AnsipixOnPipe.go `
+`curl https://www.google.com/images/srpr/logo4w.png  | go run test.go`
 
 Have fun! :octocat:
