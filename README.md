@@ -54,4 +54,6 @@ and
 
 `curl https://www.google.com/images/srpr/logo4w.png  | go run test.go`
 
+![google](http://i.imgur.com/Vh3jngN.png)
+
 Have fun! :octocat:
