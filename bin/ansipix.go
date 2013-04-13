@@ -1,9 +1,8 @@
 package main
 
 import (
-	"ansipix"
+	"github.com/minikomi/ansipix"
 	"fmt"
-	_ "image/gif"
 	"os"
 	"strconv"
 )
